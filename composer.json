@@ -15,9 +15,15 @@
     "license": "MIT License",
     "require": {
         "php": ">=5.3.0",
-        "creitive/breadcrumbs": "~2.0",
+        "creitive/breadcrumbs": "master",
         "illuminate/support": "4.x"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/hmil/breadcrumbs"
+        }
+    ],
     "autoload": {
         "psr-0": {
             "Creitive\\Breadcrumbs\\": "src"
